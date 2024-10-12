@@ -22,9 +22,7 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
 ![make_prediction](https://github.com/user-attachments/assets/77f8198d-13ff-472a-8d8c-2b06b6d2664f)
 
-* Successful deploy of the project in Azure Pipelines. 
-
-* Running Azure App Service from Azure Pipelines automatic deployment
+* Running Azure App Service from Azure Pipelines automatic deployment and successful deploy of the project in Azure Pipelines. 
   
 ![image](https://github.com/user-attachments/assets/9466e4fa-fa61-4fbf-8485-3452fa5cb8c7)
 
@@ -34,7 +32,7 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
 The output should look similar to this:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6068e1c8-646b-465f-8c3c-fa5445e062c8)
 
 
 ```bash
