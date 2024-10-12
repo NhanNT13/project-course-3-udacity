@@ -18,13 +18,17 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
   ![image](https://github.com/user-attachments/assets/f96484b0-ea4c-4501-b3e7-1ceac780eb54)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile` and Output of a test run
+* Passing tests that are displayed after running the `make all` command from the `Makefile`
   
-![make_prediction](https://github.com/user-attachments/assets/77f8198d-13ff-472a-8d8c-2b06b6d2664f)
+  ![make_prediction](https://github.com/user-attachments/assets/77f8198d-13ff-472a-8d8c-2b06b6d2664f)
+
+* Output of a test run
+
+  ![make all](https://github.com/user-attachments/assets/efbadaff-80b1-4d8a-9530-06fd1d5d7a5b)
 
 * Running Azure App Service from Azure Pipelines automatic deployment and successful deploy of the project in Azure Pipelines. 
   
-![image](https://github.com/user-attachments/assets/9466e4fa-fa61-4fbf-8485-3452fa5cb8c7)
+  ![image](https://github.com/user-attachments/assets/9466e4fa-fa61-4fbf-8485-3452fa5cb8c7)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
@@ -32,7 +36,7 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
 The output should look similar to this:
 
-![image](https://github.com/user-attachments/assets/6068e1c8-646b-465f-8c3c-fa5445e062c8)
+  ![image](https://github.com/user-attachments/assets/6068e1c8-646b-465f-8c3c-fa5445e062c8)
 
 
 ```bash
@@ -43,8 +47,8 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-![stream log part 1](https://github.com/user-attachments/assets/ba553bad-0df0-410e-b8e1-7105b24a3573)
-![stream log part 2](https://github.com/user-attachments/assets/5a1d2db8-7c8a-46e9-8693-e7ff1a0208e2)
+  ![stream log part 1](https://github.com/user-attachments/assets/ba553bad-0df0-410e-b8e1-7105b24a3573)
+  ![stream log part 2](https://github.com/user-attachments/assets/5a1d2db8-7c8a-46e9-8693-e7ff1a0208e2)
 
 
 ## Enhancements
