@@ -32,8 +32,9 @@
 The output should look similar to this:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-
+(.udacity-devops) odl_user [ ~/project-course-3-udacity ]$ ./make_predict_azure_app.sh 
+Port: 443
+{"prediction":[2.431574790057212]}
 ```
 
 * Output of streamed log files from deployed application
