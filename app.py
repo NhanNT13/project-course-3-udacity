@@ -13,7 +13,7 @@ LOG.setLevel(logging.INFO)
 def scale(payload):
     """Scales Payload"""
 
-    LOG.info("Scaling Payload: %s",payload)
+    LOG.info("Scaling Payload: %s", payload)  # Corrected logging format
     scaler = StandardScaler().fit(payload)
     scaled_adhoc_predict = scaler.transform(payload)
     return scaled_adhoc_predict
@@ -21,27 +21,28 @@ def scale(payload):
 @app.route("/")
 def home():
     html = "<h3>Sklearn Prediction Home</h3>"
-    return html.format(format)
+    return html
 
-# TO DO:  Log out the prediction value
+# Log out the prediction value
 @app.route("/predict", methods=['POST'])
 def predict():
     # Performs an sklearn prediction
     try:
-        # Load pretrained model as clf. Try any one model. 
+        # Load pretrained model as clf. Try any one model.
         clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
         # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         # clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")
-    except Exception as e:
-        LOG.error("Error loading model: %s", str(e))
-        return "Model not loaded", 500
+    except Exception as e:  # Catch specific exception
+        LOG.error("Error loading model: %s", str(e))  # Log error with exception message
+        return "Model not loaded", 500  # Return HTTP 500 status code for server error
 
     json_payload = request.json
-    LOG.info("JSON payload: %s", json_payload)
+    LOG.info("JSON payload: %s", json_payload)  # Corrected logging format
     inference_payload = pd.DataFrame(json_payload)
-    LOG.info("inference payload DataFrame: %s",inference_payload)
+    LOG.info("Inference payload DataFrame: %s", inference_payload)  # Corrected logging format
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
+    LOG.info("Prediction: %s", prediction)  # Added log for prediction value
     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
