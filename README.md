@@ -50,13 +50,13 @@ Port: 443
 ## Enhancements
 
 To improve the project in the future, we can approve some key below:
--Use Containerization
--Implement Microservices
--Automated Testing
--Caching
--Load Balancing
--Security Best Practices
--Vulnerability Scanning
+*Use Containerization
+*Implement Microservices
+*Automated Testing
+*Caching
+*Load Balancing
+*Security Best Practices
+*Vulnerability Scanning
 
 ## Demo 
 
