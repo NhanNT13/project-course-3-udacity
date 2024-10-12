@@ -22,16 +22,20 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
 ![make_prediction](https://github.com/user-attachments/assets/77f8198d-13ff-472a-8d8c-2b06b6d2664f)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Successful deploy of the project in Azure Pipelines. 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
   
 ![image](https://github.com/user-attachments/assets/9466e4fa-fa61-4fbf-8485-3452fa5cb8c7)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+* Successful prediction from deployed flask app in Azure Cloud Shell.
+
+  ![make_prediction](https://github.com/user-attachments/assets/2a33a345-a228-4c52-b603-5ad7b290b058)
+  
 The output should look similar to this:
 
-![make_prediction](https://github.com/user-attachments/assets/2a33a345-a228-4c52-b603-5ad7b290b058)
+![Uploading image.png…]()
+
 
 ```bash
 (.udacity-devops) odl_user [ ~/project-course-3-udacity ]$ ./make_predict_azure_app.sh 
