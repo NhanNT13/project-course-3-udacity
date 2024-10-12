@@ -12,17 +12,6 @@ LOG = create_logger(app)
 LOG.setLevel(logging.INFO)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def toyou(x):
-    return "hi %s" % x
-
-
-def add(x):
-    return x + 1
-
-
-def subtract(x):
-    return x - 1
-    
 def scale(payload):
     """Scales Payload"""
 
