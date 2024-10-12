@@ -64,4 +64,5 @@ To improve the project in the future, we can approve some key below:
 
 Link demo: https://youtu.be/cn5OPX1SGBI?si=8NWE8ZPPw_w4EP8f
 
-![main_myapp-nhannt57.yml](https://github.com/NhanNT13/project-course-3-udacity/blob/main/.github/workflows/main_myapp-nhannt57.yml/badge.svg)
+![example workflow](https://github.com/NhanNT13/project-course-3-udacity/actions/workflows/main_myapp-nhannt57.yml/badge.svg)
+
