@@ -35,9 +35,7 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   ![make_prediction](https://github.com/user-attachments/assets/2a33a345-a228-4c52-b603-5ad7b290b058)
   
 The output should look similar to this:
-
   ![image](https://github.com/user-attachments/assets/6068e1c8-646b-465f-8c3c-fa5445e062c8)
-
 
 ```bash
 (.udacity-devops) odl_user [ ~/project-course-3-udacity ]$ ./make_predict_azure_app.sh 
