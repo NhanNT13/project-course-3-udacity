@@ -64,7 +64,7 @@ To improve the project in the future, we can approve some key below:
 
 Link demo: https://youtu.be/cn5OPX1SGBI?si=8NWE8ZPPw_w4EP8f
 
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![main_myapp-nhannt57.yml](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 
 
