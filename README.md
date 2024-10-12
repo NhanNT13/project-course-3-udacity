@@ -1,13 +1,14 @@
 # project-course-3-udacity
 # Overview
 
-<TODO: complete this with an overview of your project>
+Build a Github repository from scatch and create a scaffolding in performing both Continuous Integration and Continuous Delevery.
 
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a Trello board for the project: https://trello.com/b/rDv9z2TX/software-development-project
+* A link to a spreadsheet that includes the original and final project plan: https://docs.google.com/spreadsheets/d/1CB27icAbr3qya7oZXqTplgqL7MNvgXdP/edit?usp=sharing&ouid=106957848057168331648&rtpof=true&sd=true
+
 
 ## Instructions
 
@@ -21,6 +22,7 @@
 * Project cloned into Azure Cloud Shell
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+
 
 * Output of a test run
 
