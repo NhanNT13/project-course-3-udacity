@@ -29,9 +29,13 @@ def predict():
     # Performs an sklearn prediction
     try:
         # Load pretrained model as clf. Try any one model.
-        clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
+        model_path = os.path.join(BASE_DIR, "Housing_price_model", "LinearRegression.joblib")
+        clf = joblib.load(model_path)
         # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         # clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")
+    except FileNotFoundError:
+        LOG.error("Model file not found. Please check the file path.")
+        return "Model file not found", 500
     except Exception as e:  # Catch specific exception
         LOG.error("Error loading model: %s", str(e))  # Log error with exception message
         return "Model not loaded", 500  # Return HTTP 500 status code for server error
