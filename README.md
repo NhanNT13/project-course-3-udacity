@@ -4,27 +4,23 @@
 Build a Github repository from scatch and create a scaffolding in performing both Continuous Integration and Continuous Delevery.
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project: https://trello.com/b/rDv9z2TX/software-development-project
 * A link to a spreadsheet that includes the original and final project plan: https://docs.google.com/spreadsheets/d/1CB27icAbr3qya7oZXqTplgqL7MNvgXdP/edit?usp=sharing&ouid=106957848057168331648&rtpof=true&sd=true
 
-
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+* Architectural Diagram
+  ![image](https://github.com/user-attachments/assets/ea944301-d8c3-4dcc-9f75-620915093524)
 
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+* 
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Passing tests that are displayed after running the `make all` command from the `Makefile` and Output of a test run
+![make_prediction](https://github.com/user-attachments/assets/77f8198d-13ff-472a-8d8c-2b06b6d2664f)
 
-
-* Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
@@ -45,10 +41,17 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+To improve the project in the future, we can approve some key below:
+-Use Containerization
+-Implement Microservices
+-Automated Testing
+-Caching
+-Load Balancing
+-Security Best Practices
+-Vulnerability Scanning
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+Link demo: https://youtu.be/cn5OPX1SGBI?si=8NWE8ZPPw_w4EP8f
 
 
