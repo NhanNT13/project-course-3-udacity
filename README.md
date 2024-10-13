@@ -34,6 +34,8 @@ Build a Github repository from scatch and create a scaffolding in performing bot
   
   ![image](https://github.com/user-attachments/assets/07e35c28-1314-41f3-a178-6a0381f02f6a)
 
+  ![image](https://github.com/user-attachments/assets/ef8331cd-90a2-4d09-98c1-26c77e4ec798)
+
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
   ![make_prediction](https://github.com/user-attachments/assets/2a33a345-a228-4c52-b603-5ad7b290b058)
